@@ -1,0 +1,97 @@
+.container-fluid{
+	width: 1140px;
+}
+
+.contaier{
+	width: 1140px;
+	
+}
+.navbar{
+	margin-bottom: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	font-family: 'Indie Flower', cursive;
+}
+.row {
+
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+}
+.fr{
+	margin-top: 10px;
+}
+
+img{
+	background-size: cover;
+}
+.col-md-4{
+	text-align: center;
+	background-color: green;
+}
+.img-circle{
+	display: block;
+  max-width: 100%;
+  height: auto
+}
+.fa.fa-facebook-official{
+	font-size: 50px;
+	margin-top: 30px;
+}
+.fa.fa-twitter{
+	font-size: 50px;
+	margin-top: 30px;
+}
+.fa.fa-instagram{
+	font-size: 50px;
+	margin-top: 30px;
+}
+.btn.btn-default{
+	margin-bottom: 10px;
+}
+
+.fr {
+	margin-left: 5px;
+}
+
+.fr2{
+	margin-left: 5px;
+}
+
+.progress{
+	margin-top: 50px;
+}
+
+.bart{
+	text-align: center;
+	margin-top: 50px;
+}
+
+form{
+	margin-top: 10px;
+}
+
+.btn-default{
+
+  margin-top: 10px;
+  margin-left: 220px;
+}
+
+.row{
+	background-color: lightgreen;
+}
+
+label{
+	margin-left: 210px;
+}
+
+
+.footer {
+	background-color: lightgrey;
+    clear:both;
+    text-align: center;
+    margin:0 auto;
+    font-family: 'Indie Flower', cursive;
+    font-size:1.4em;
+    line-height:1.5em;
+ }
