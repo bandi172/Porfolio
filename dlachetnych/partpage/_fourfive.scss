@@ -1,0 +1,58 @@
+
+
+
+#four{
+     background-color:$la;
+
+	      h1{
+	        color:$bor;
+	        margin-top:-50px;
+	        text-align:center;
+	        font-family: 'Lobster', cursive;
+            }
+       .line{
+    	    border-bottom:4px solid $lg2;
+	        width:10%;
+	        margin:$m0;
+            }
+           p{
+            margin-top:20px;
+            color:$bor;
+            }
+}
+#five {
+  background-color:$la;
+       .col-xs-6.col-sm-3{
+            text-align:center;
+            margin-top:100px;
+            margin-bottom:50px;
+            
+
+       h4{
+            color:blue;
+         }
+       }
+     img{
+          width:70%;
+        }
+     p{
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-size:15px;
+      }
+     i{
+         font-size:50px;
+      }
+}
+
+
+.fa.fa-facebook-square{
+  color:$ic;
+}
+
+.fa.fa-google-plus-square{
+  color:$ic;
+}
+
+.fa.fa-twitter-square{
+  color:$ic;
+}

@@ -1,0 +1,24 @@
+#sixth{
+	background-color:$drblu;
+	text-align:center;
+    overflow:hidden;
+    height:100px;
+	.soc{
+	margin-top:30px;
+	a{
+	font-family: 'Ubuntu', sans-serif;
+    margin-top:75px;
+	padding:20px;
+	font-size:30px;
+	text-decoration:none;
+	color:$w;
+	&:hover{
+	color:$liblu;
+	text-decoration:none;
+
+	}
+	}
+	}
+	
+}
+

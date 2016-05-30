@@ -1,0 +1,80 @@
+//mixin początek
+@mixin border-radius($radius: 10px) {
+    border-radius: $radius;
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+@mixin transition{
+
+-webkit-transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+-ms-transition: all 0.5s linear;
+-o-transition: all 0.5s linear;
+transition: all 0.5s linear;
+};
+
+//mixin koniec
+
+#fir {
+	background-color:$v;
+	padding:5px;
+	    .cuda{
+
+	       margin-top:40px;
+	       color:$w;
+	       font-family: 'Covered By Your Grace', cursive;
+	       font-size:80px;
+	       text-decoration:none;
+	      }
+
+
+}
+
+nav{
+    margin-top:60px;
+
+	ul{
+	  li{
+	  list-style-type:none;
+	  float:left;
+	  padding:5px;
+          a{
+          @include transition;
+          font-family: 'Raleway', sans-serif;
+          color:$w;
+          text-decoration:none;
+          padding:10px;
+          font-size:20px;
+              &:hover{
+                 color:$w;
+                 text-decoration:none;
+                 background-color:$dv;
+                 @include border-radius;
+                 font-size:20px;
+                 padding:10px;
+
+            }
+	     }
+	  }
+	}
+}
+
+
+.col-md-6.col-md-offset-3{
+    width:50%;
+  
+	text-align:center;
+	color:$w;
+	margin-top:150px;
+	    h2{
+	      
+	      font-size:50px;
+	    }
+	
+	    button{
+	        
+	        background:$o;
+	        margin-top:30px;
+	        margin-bottom:100px;}
+}
